@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Serial">
+      <UniqueIdentifier>{31a536f2-d71d-43e6-ba44-3bd0a7a25126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ymodem">
+      <UniqueIdentifier>{3fa14c60-f44c-443a-90ec-5b2741c21024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DownloadTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadToolDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\CSerialPort.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\CThread.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\CThreadComm.h">
+      <Filter>Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="Ymodem\Ymodem.h">
+      <Filter>Ymodem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DownloadTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadToolDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\CSerialPort.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\CThread.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\CThreadComm.cpp">
+      <Filter>Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="Ymodem\Ymodem.cpp">
+      <Filter>Ymodem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DownloadTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DownloadTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DownloadTool.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\COMM.ICO">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ICON_NOT.ICO">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ICON_ON.ICO">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

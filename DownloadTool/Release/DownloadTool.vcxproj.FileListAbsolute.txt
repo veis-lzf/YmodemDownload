@@ -1,0 +1,2 @@
+D:\project\F103_DemoPrj\MCUDownloadTool\DownloadTool\Release\DownloadTool.exe
+D:\project\F103_DemoPrj\DownloadTool\Release\DownloadTool.exe
